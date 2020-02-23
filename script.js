@@ -39,6 +39,29 @@ window.onload = function(){
 	can.addEventListener("touchend", function(e){
 		spin = true;
 	});
+	
+	
+	can.addEventListener("mousedown", function(e){
+	   c.globalAlpha = "1";
+	   c.fillStyle = "#000000";
+	   c.fillRect(0, 0, can.width, can.height);
+		//e.preventDefault();
+		points = [];
+		points.push([Math.atan2(can.width/2 - e.clientX, can.height/2 - e.clientY), Math.hypot(can.width/2 - e.clientX, can.height/2 - e.clientY)]);
+		spin = false;
+		angle = 0;
+	});
+
+	can.addEventListener("mousemove", function(e){
+		points.push([Math.atan2(can.width/2 - e.clientX, can.height/2 - e.clientY), Math.hypot(can.width/2 - e.clientX, can.height/2 - e.clientY)]);
+		if(points.length > 500){
+			points.splice(0, 1);
+		}
+	});
+
+	can.addEventListener("mouseup", function(e){
+		spin = true;
+	});
 
 	mouseDown = false;
 	can.addEventListener("mousedown", function(e){
