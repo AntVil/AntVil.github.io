@@ -1,0 +1,16 @@
+body{
+	position: fixed;
+	margin: 0px;
+}
+
+canvas{
+	margin: 0px;
+	webkit-user-select: none;
+}
+
+#alpha{
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	bottom: 10px;
+}
