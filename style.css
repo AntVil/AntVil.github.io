@@ -1,16 +1,44 @@
+:root {
+    --mainColor1: #EEEEEEAA;
+    --mainColor2: #FFAA00AA;
+    --accentColor1: #0099EEFF;
+    --accentColor2: #EE9900FF;
+    --textColor: #111111;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --mainColor1: #1D1D1DAA;
+        --mainColor2: #5F3F00AA;
+        --accentColor1: #00669CFF;
+        --accentColor2: #BD7b00FF;
+        --textColor: #EEEEEE;
+    }
+}
+
+*{
+    transition: all 1s;
+    color: var(--textColor);
+}
+
+
 body{
-	position: fixed;
-	margin: 0px;
+    background-color: var(--mainColor1);
 }
 
-canvas{
-	margin: 0px;
-	webkit-user-select: none;
+header, footer{
+    background-color: var(--accentColor1);
 }
 
-#alpha{
-	position: absolute;
-	transform: translate(-50%, -50%);
-	left: 50%;
-	bottom: 10px;
+main{
+    background-color: var(--mainColor2);
+}
+
+section{
+    background-color: var(--accentColor2);
+    border-radius: 5px;
+}
+
+#backgroundCanvas{
+    background-color: var(--mainColor1);
 }
