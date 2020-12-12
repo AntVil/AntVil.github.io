@@ -4,14 +4,88 @@ class ProjectList{
 
         this.projects = [
             new Project(
-                "WebGl-Library",
-                ["tag1", "tag2"],
-                "description"
+                "Programming",
+                ["JavaScript", "DHBW", "NodeJS", "Game", "done"],
+                "a simple textadventure",
+                "images/DogPicture.jpeg",
+                "images/DogPicture.jpeg"
             ),
             new Project(
-                "Title",
-                ["tag"],
-                "description"
+                "chatserver",
+                ["JavaScript", "DHBW", "Server", "NodeJS", "done"],
+                "a simple chat server",
+                "images/DogPicture.jpeg",
+                "images/DogPicture.jpeg"
+            ),
+            new Project(
+                "Arduino-Tutorial",
+                ["HTML", "Tutorial", "done"],
+                "This is a little Arduino Tutorial Page.",
+                "images/DogPicture.jpeg",
+                "images/DogPicture.jpeg"
+            ),
+            new Project(
+                "WebGl-Library",
+                ["JavaScript", "Library", "done"],
+                "JavaScript Library for simple 3d Objects using WebGl",
+                "images/DogPicture.jpeg",
+                "images/DogPicture.jpeg"
+            ),
+            new Project(
+                "Magic-vs-Monsters",
+                ["JavaScript", "Game", "unfinished"],
+                "A open-source grid-based tower-defense game.",
+                "images/DogPicture.jpeg",
+                "images/DogPicture.jpeg"
+            ),
+            new Project(
+                "tap-the-black",
+                ["JavaScript", "Game", "done"],
+                "",
+                "images/DogPicture.jpeg",
+                "images/DogPicture.jpeg"
+            ),
+            new Project(
+                "world-eater",
+                ["JavaScript", "Game", "unfinished"],
+                "a game",
+                "images/DogPicture.jpeg",
+                "images/DogPicture.jpeg"
+            ),
+            new Project(
+                "HabiHase-Web",
+                ["JavaScript", "Game", "scrapped"],
+                "description",
+                "images/DogPicture.jpeg",
+                "images/DogPicture.jpeg"
+            ),
+            new Project(
+                "python-tutorial",
+                ["HTML", "Tutorial", "done"],
+                "description",
+                "images/DogPicture.jpeg",
+                "images/DogPicture.jpeg"
+            ),
+            new Project(
+                "oddly-satisfying",
+                ["JavaScript", "Animation", "done"],
+                "description",
+                "images/DogPicture.jpeg",
+                "images/DogPicture.jpeg"
+            ),
+            new Project(
+                "KellerAutomat",
+                ["Java", "scrapped"],
+                "Ein Kellerautomat Beispiel",
+                "images/none.jpeg",
+                "images/none.jpeg"
+            ),
+            new Project(
+                "HabiHase",
+                ["Java", "Game", "scrapped"],
+                "abigame.com projekt",
+                "images/none.jpeg",
+                "images/none.jpeg"
             )
         ];
 

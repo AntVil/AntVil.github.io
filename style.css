@@ -1,23 +1,27 @@
 :root {
     --mainColor1: #EEEEEEAA;
     --mainColor2: #FFAA00AA;
-    --accentColor1: #0099EEFF;
-    --accentColor2: #EE9900FF;
+    --accentColor1: #0099EE;
+    --accentColor2: #EE9900;
+    --highlightColor1: #0051FF;
+    --highlightColor2: #FF8800;
     --textColor: #111111;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --mainColor1: #1D1D1DAA;
+        --mainColor1: #1D1D1D;
         --mainColor2: #5F3F00AA;
-        --accentColor1: #00669CFF;
-        --accentColor2: #BD7b00FF;
-        --textColor: #EEEEEE;
+        --accentColor1: #004B74;
+        --accentColor2: #A16900;
+        --highlightColor1: #0051FF;
+        --highlightColor2: #FF8800;
+        --textColor: #DDDDDD;
     }
 }
 
 *{
-    transition: all 1s;
+    transition: all 0.5s;
     color: var(--textColor);
 }
 
@@ -39,10 +43,29 @@ section{
     border-radius: 5px;
 }
 
+section:hover{
+    background-color: var(--accentColor1);
+}
+
 #backgroundCanvas{
     background-color: var(--mainColor1);
 }
 
 select, option{
     background-color: var(--accentColor1);
+}
+
+.tag{
+    background-color: var(--accentColor1);
+    border-style: solid;
+    border-color: var(--highlightColor1);
+    border-radius: 5px;
+}
+
+a:hover{
+    color: var(--highlightColor1)
+}
+
+.icon{
+    border-radius: 50%;
 }
