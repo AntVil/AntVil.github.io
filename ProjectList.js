@@ -7,71 +7,71 @@ class ProjectList{
                 "Programming",
                 ["JavaScript", "DHBW", "NodeJS", "Game", "done"],
                 "a simple textadventure",
-                "images/DogPicture.jpeg",
-                "images/DogPicture.jpeg"
+                "images/Programming.png",
+                "images/Programming.png"
             ),
             new Project(
                 "chatserver",
                 ["JavaScript", "DHBW", "Server", "NodeJS", "done"],
                 "a simple chat server",
-                "images/DogPicture.jpeg",
-                "images/DogPicture.jpeg"
+                "images/chatserver-Icon.png",
+                "images/chatserver.png"
             ),
             new Project(
                 "Arduino-Tutorial",
                 ["HTML", "Tutorial", "done"],
                 "This is a little Arduino Tutorial Page.",
-                "images/DogPicture.jpeg",
-                "images/DogPicture.jpeg"
+                "images/Arduino-Tutorial-Icon.png",
+                "images/Arduino-Tutorial.png"
             ),
             new Project(
                 "WebGl-Library",
                 ["JavaScript", "Library", "done"],
                 "JavaScript Library for simple 3d Objects using WebGl",
-                "images/DogPicture.jpeg",
-                "images/DogPicture.jpeg"
+                "images/WebGl-Library-Icon.png",
+                "images/WebGl-Library.png"
             ),
             new Project(
                 "Magic-vs-Monsters",
                 ["JavaScript", "Game", "unfinished"],
                 "A open-source grid-based tower-defense game.",
-                "images/DogPicture.jpeg",
-                "images/DogPicture.jpeg"
+                "images/none.jpeg",
+                "images/none.jpeg"
             ),
             new Project(
                 "tap-the-black",
                 ["JavaScript", "Game", "done"],
                 "",
-                "images/DogPicture.jpeg",
-                "images/DogPicture.jpeg"
+                "images/none.jpeg",
+                "images/tap-the-black.png"
             ),
             new Project(
                 "world-eater",
                 ["JavaScript", "Game", "unfinished"],
                 "a game",
-                "images/DogPicture.jpeg",
-                "images/DogPicture.jpeg"
+                "images/none.jpeg",
+                "images/world-eater.png"
             ),
             new Project(
                 "HabiHase-Web",
                 ["JavaScript", "Game", "scrapped"],
                 "description",
-                "images/DogPicture.jpeg",
-                "images/DogPicture.jpeg"
+                "images/none.jpeg",
+                "images/none.jpeg"
             ),
             new Project(
                 "python-tutorial",
                 ["HTML", "Tutorial", "done"],
                 "description",
-                "images/DogPicture.jpeg",
-                "images/DogPicture.jpeg"
+                "images/none.jpeg",
+                "images/none.jpeg"
             ),
             new Project(
                 "oddly-satisfying",
                 ["JavaScript", "Animation", "done"],
                 "description",
-                "images/DogPicture.jpeg",
-                "images/DogPicture.jpeg"
+                "images/none.jpeg",
+                "images/oddly-satisfying.png"
             ),
             new Project(
                 "KellerAutomat",
