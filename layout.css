@@ -56,6 +56,18 @@
 
         margin-top: 5px;
         margin-bottom: 5px;
+
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    section:hover{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    h2, h3, h4, h5 {
+        margin: 5px;
     }
 }
 

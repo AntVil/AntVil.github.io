@@ -1,24 +1,18 @@
-let can;
-let c;
+let projectList;
+let background;
 
+let frame;
 
-let frame = 0;
+window.onload = function () {
+	projectList = new ProjectList("tagSelect", "projectList");
+	background = new Background("backgroundCanvas");
 
-window.onload = function(){
-	can = document.getElementById("backgroundCanvas");
-	c = can.getContext("2d");
-
-	setupProjectSelector();
-	loadProjectDescriptions();
-
+	frame = 0;
 	loop();
 }
 
-function loop(){
-	c.clearRect(0, 0, can.width, can.height);
-
-	c.fillStyle = `hsl(${frame % 360}, 100%, 50%)`;
-	c.fillRect(0, 0, can.width, can.height);
+function loop() {
+	background.render(frame);
 
 	frame++;
 	requestAnimationFrame(loop);
@@ -26,11 +20,3 @@ function loop(){
 
 
 
-function setupProjectSelector(){
-	let selector = document.getElementById("tagSelection");
-	selector.innerHTML = "";
-}
-
-function loadProjectDescriptions(){
-
-}

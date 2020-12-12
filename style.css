@@ -42,3 +42,7 @@ section{
 #backgroundCanvas{
     background-color: var(--mainColor1);
 }
+
+select, option{
+    background-color: var(--accentColor1);
+}

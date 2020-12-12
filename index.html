@@ -12,6 +12,9 @@
   <link rel="stylesheet" href="layout.css">
   <link rel="stylesheet" href="style.css">
 
+  <script type="text/javascript" src="Project.js"></script>
+  <script type="text/javascript" src="ProjectList.js"></script>
+  <script type="text/javascript" src="Background.js"></script>
   <script type="text/javascript" src="script.js"></script>
 </head>
 
@@ -28,46 +31,13 @@
 
   <main>
     <article>
-      <h3>About me</h3>
-
-    </article>
-
-    <article>
       <h3>My Projects</h3>
 
       <form>
-        <select id="tagSelection"></select>
+        <select id="tagSelect" onchange="projectList.updateProjectList()" value=""></select>
       </form>
-      
-      <section>
-        <h4>WebGl-Library</h4>
-        
-      </section>
 
-      <section>
-        <h4>tap-the-black</h4>
-        <div class="tagList">
-          <span class="tag">game</span>
-        </div>
-
-      </section>
-
-      <section>
-        <h4>world-eater</h4>
-        <div class="tagList">
-          <span class="tag">game</span>
-        </div>
-
-      </section>
-
-      <section>
-        <h4>oddly-satisfying</h4>
-
-      </section>
-    </article>
-
-    <article>
-      <h3>My Skills</h3>
+      <div id="projectList"></div>
     </article>
   </main>
 
