@@ -20,7 +20,7 @@ class Project {
 
         let title = document.createElement("h4");
         let link = document.createElement("a");
-        link.href = "https://github.com/htcryme/" + this.name;
+        link.href = "https://github.com/AntVil/" + this.name;
         title.appendChild(link);
         link.innerText = this.name;
 
