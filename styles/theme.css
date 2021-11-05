@@ -1,0 +1,10 @@
+:root{
+    --content-color: #333333;
+    --aside-color: #999999;
+    --text-color: #FFFFFF;
+    --highlight-color: #0099FF;
+}
+
+*{
+    color: var(--text-color);
+}

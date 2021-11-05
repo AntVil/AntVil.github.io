@@ -1,0 +1,53 @@
+:root{
+    --header-height: 100px;
+    --footer-height: 75px;
+    --icon-size: 100px;
+}
+
+html{
+    scrollbar-width: none;
+}
+
+html::-webkit-scrollbar{
+    width: 0;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: var(--header-height) 1fr var(--footer-height);
+    margin: 0;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar{
+    width: 0;
+}
+
+header{
+    text-align: center;
+    background-color: var(--highlight-color);
+}
+
+main{
+    min-height: calc(100vh - (var(--header-height) + var(--footer-height)));
+    background-color: var(--content-color);
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    margin: 10px;
+    padding: 5px;
+    background-color: var(--highlight-color);
+    border-radius: 5px;
+}
+
+section>img{
+    height: var(--icon-size);
+}
+
+footer{
+    text-align: center;
+    background-color: var(--highlight-color);
+}
